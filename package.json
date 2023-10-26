@@ -1,0 +1,12 @@
+{
+  "name": "nexe-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "bytenode": "^1.5.2"
+  },
+  "scripts":{
+    "build":"bytenode --compile app.js"
+  }
+}
